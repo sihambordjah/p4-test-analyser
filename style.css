@@ -679,7 +679,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -736,11 +736,6 @@ h4 {
   margin-bottom: 14px;
   margin-top: 24px;
 }
-
-.white {
-  color: #ffffff !important;
-}
-
 .portfolio-thumb {
   margin-bottom: 24px;
 }

@@ -431,8 +431,12 @@ button {
   border-radius: 0 0 29px 29px;
 }
 .form-control {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.607);
   box-shadow: none;
+}
+#Select {
+  padding: 9px;
+  border-radius: 4px;
 }
 .scrollToTop {
   width: 40px;
@@ -685,7 +689,7 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #fff !important;
+  color: #333 !important;
 }
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
@@ -706,6 +710,10 @@ h4 {
 .icon-dark-slate-blue {
   color: #364577 !important;
   border-color: #364577 !important;
+}
+.soustitle-contact {
+  margin-bottom: 30px;
+  color: black !important;
 }
 .bg-dots-bg {
   background-image: url(img/dots-bg.webp);
@@ -900,7 +908,7 @@ h4 {
     margin-top: 30px;
   }
   form {
-    padding: 5px;
+    padding: 30px;
   }
   .close-lightbox {
     display: inline-block;

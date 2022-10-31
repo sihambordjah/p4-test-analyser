@@ -60,9 +60,8 @@
             <div class="navbar-header">
               <a class="navbar-brand" href="index.html"
                 ><img
-                  src="img/agence-la-panthere-monochrome.webp"
+                  src="img/agence-la-panthere-monochrome.svg"
                   alt="atlanta web design logo"
-                  width="216"
                   height="40"
               /></a>
               <button
@@ -101,10 +100,13 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center hero-bloc-text tc-white">
+              <h1 id="page_contact" class="text-center hero-bloc-text tc-white">
                 Parlons web design !
               </h1>
-              <p class="text-center mg-lg tc-white tight-width-whitespace">
+              <p
+                id="p-contrast"
+                class="text-center mg-lg tc-white tight-width-whitespace"
+              >
                 Nous sommes ravis que vous souhaitiez collaborer avec notre
                 agence.<br />
                 Parlez-nous de votre projet en complétant le formulaire
@@ -122,12 +124,7 @@
           <h2 class="soustitle-contact">Rentrons en contact</h2>
           <div class="row">
             <div class="col-sm-6">
-              <form
-                id="form_1"
-                novalidate
-                success-msg="Your message has been sent."
-                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-              >
+              <form id="form_1" novalidate>
                 <div class="form-group">
                   <label for="name">Nom :</label>
                   <input
@@ -159,15 +156,18 @@
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="msg">
+                  <label for="message">
                     Brief de votre projet (Ajoutez autant de détails que
-                    nécessaire)<br /> </label
+                    nécessaire)<br /></label
                   ><textarea
+                    aria-required="true"
                     id="message"
                     class="form-control"
                     rows="4"
                     cols="50"
-                    placeholder="SEO, création graphique, web design "
+                    required
+                    data-validation-required-message="Saisissez le brief de votre projet"
+                    aria-label="Saisissez le brief de votre projet"
                   ></textarea>
                 </div>
                 <button
@@ -191,7 +191,7 @@
 
       <!-- ScrollToTop Button -->
       <a
-        href="#top"
+        href="#"
         class="bloc-button btn btn-d scrollToTop"
         onclick="scrollToTarget('1')"
         aria-label="Retourner en haut"
@@ -213,8 +213,9 @@
                   <div class="text-center">
                     <a
                       class="social"
-                      href="contact-web-design-lyon.html"
-                      title="twitter"
+                      href="https://twitter.com/agencepanthere"
+                      aria-label="Twitter"
+                      rel="nofollow"
                       ><span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
@@ -223,8 +224,9 @@
                   <div class="text-center">
                     <a
                       class="social"
-                      href="contact-web-design-lyon.html"
-                      title="facebook"
+                      href="https://www.facebook.com/La-Chouette-Agence-101700188845251"
+                      aria-label="Facebook"
+                      rel="nofollow"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
@@ -233,8 +235,9 @@
                   <div class="text-center">
                     <a
                       class="social"
-                      href="contact-web-design-lyon.html"
-                      title="drible"
+                      href="https://dribbble.com/quarkend/shots"
+                      aria-label="Dribbble"
+                      rel="nofollow"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
@@ -243,8 +246,9 @@
                   <div class="text-center">
                     <a
                       class="social"
-                      href="contact-web-design-lyon.html"
-                      title="instagram"
+                      href="https://www.instagram.com/La_Chouette_Agence/"
+                      aria-label="Instagram"
+                      rel="nofollow"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>

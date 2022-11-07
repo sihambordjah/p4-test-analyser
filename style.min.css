@@ -82,9 +82,9 @@ a:hover {
   background: url(img/texture-paper.webp);
   background-size: 280px 280px;
 }
-/*.b-parallax {
+.b-parallax {
   background-attachment: fixed;
-}*/
+}
 .d-bloc {
   color: rgba(255, 255, 255, 0.7);
 }

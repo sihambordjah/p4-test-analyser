@@ -31,7 +31,7 @@ a:hover {
   width: 100%;
   clear: both;
   background: 50% 50% no-repeat;
-  padding: 0 50px;
+  padding: 20px 50px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -807,11 +807,11 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
@@ -823,7 +823,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.jpeg");
+  background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
